@@ -1,0 +1,76 @@
+*{
+ box-sizing: border-box;
+ margin: auto;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url(Immagini/background.JPG);
+    background-size: cover;
+    margin: 20px;
+}
+
+.container{
+    width: 950px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.468);
+    padding: 40px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+header img{
+    width: 200px;
+}
+
+h1{
+    color: rgb(7, 241, 7);
+}
+
+nav, main{
+    width: 850px;
+}
+
+nav{
+    padding: 10px;
+    background-color: rgb(7, 241, 7);
+    text-align: center;
+}
+
+section{
+    margin-top: 20px;
+}
+
+h3{
+    display: inline-block;
+}
+
+section h3, p{
+    color: white;
+}
+
+#carica1{
+    background-color: orange;
+    width: 300px;
+    height: 20px;
+}
+
+#carica2{
+    background-color: rgb(7, 241, 7);
+    width: 500px;
+    height: 20px;
+}
+
+#carica3{
+    background-color:red;
+    width: 100px;
+    height: 20px;
+}
+
+#carica1, #carica2, #carica3{
+    display: inline-block;
+    border-radius: 5px;
+}
